@@ -1,4 +1,4 @@
-#hangman
+#hangman test
 
 wordtoguess = list("apple")
 
@@ -14,7 +14,7 @@ p = 0
 while hashed_word != wordtoguess:
     for f in wordtoguess:
         if f == letter_2_guess:
-            hashed_word = "x" * 5
+            hashed_word = "y" * 5
             print hashed_word
         else:
             hashed_word = hashed_word + "x"
